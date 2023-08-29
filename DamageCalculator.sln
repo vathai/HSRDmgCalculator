@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DamageCalcLibrary", "DamageCalcLibrary.csproj", "{B63D1229-CF18-4AD7-86C7-EF949A9837FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DamageCalcLibrary", "DamageCalcLibrary.csproj", "{B63D1229-CF18-4AD7-86C7-EF949A9837FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DCReactUI", "..\DCReactUI\DCReactUI.csproj", "{6812D1B5-77A8-4746-AD2F-D940C447457E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DCUITest", "..\DCUI\DCUITest.csproj", "{3D87B6F4-2B4E-4F38-81A1-623B96EAF0C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{B63D1229-CF18-4AD7-86C7-EF949A9837FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B63D1229-CF18-4AD7-86C7-EF949A9837FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B63D1229-CF18-4AD7-86C7-EF949A9837FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6812D1B5-77A8-4746-AD2F-D940C447457E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6812D1B5-77A8-4746-AD2F-D940C447457E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6812D1B5-77A8-4746-AD2F-D940C447457E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6812D1B5-77A8-4746-AD2F-D940C447457E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D87B6F4-2B4E-4F38-81A1-623B96EAF0C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D87B6F4-2B4E-4F38-81A1-623B96EAF0C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D87B6F4-2B4E-4F38-81A1-623B96EAF0C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D87B6F4-2B4E-4F38-81A1-623B96EAF0C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
