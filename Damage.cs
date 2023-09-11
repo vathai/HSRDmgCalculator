@@ -19,7 +19,7 @@ namespace DamageCalcLibrary
         }
         public double DefMultiplier(Attacker attacker, Target target)
         {
-            return (attacker.Level + 20) / (target.Level + 20) * (1 - target.DefReduction + target.Level + 20);
+            return (attacker.CharLevel + 20) / (target.Level + 20) * (1 - target.DefReduction + target.Level + 20);
         }
 
         public double Toughness(Target target) {

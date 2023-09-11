@@ -2,7 +2,8 @@
 {
     public class Attacker
     {
-        public int Level { get; set; }
+        public int Id { get; set; }
+        public int CharLevel { get; set; }
         public int Attack { get; set; }
         public bool Crit { get; set; }
         public double CritDamage { get; set; }
