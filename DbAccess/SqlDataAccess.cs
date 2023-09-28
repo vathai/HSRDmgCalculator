@@ -10,6 +10,7 @@ using Dapper;
 
 namespace DamageCalcLibrary.DbAccess
 {
+    //this is where dapper talks to sql database
     public class SqlDataAccess : ISqlDataAccess
     {
         private readonly IConfiguration _configuration;
