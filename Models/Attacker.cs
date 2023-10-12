@@ -3,6 +3,7 @@
     public class Attacker
     {
         public int Id { get; set; }
+        public string? CharName { get; set; }
         public int CharLevel { get; set; }
         public int Attack { get; set; }
         public bool Crit { get; set; }

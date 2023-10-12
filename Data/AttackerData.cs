@@ -31,6 +31,7 @@ public class AttackerData : IAttackerData
         _db.SaveData(storedProcedure: "dbo.spAttacker_Insert",
             new
             {
+                attacker.CharName,
                 attacker.CharLevel,
                 attacker.Attack,
                 attacker.Crit,
