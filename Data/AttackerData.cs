@@ -26,6 +26,12 @@ public class AttackerData : IAttackerData
             storedProcedure: "dbo.spAttacker_Get", new { Id = id });
         return results.FirstOrDefault();
     }
+    public async Task<Attacker?> GetAttackerByName(string name)
+    {
+        var results = await _db.LoadData<Attacker, dynamic>(
+            storedProcedure: "dbo.spAttacker_GetByName", new { charName = name });
+        return results.FirstOrDefault();
+    }
 
     public Task InsertAttacker(Attacker attacker) =>
         _db.SaveData(storedProcedure: "dbo.spAttacker_Insert",
